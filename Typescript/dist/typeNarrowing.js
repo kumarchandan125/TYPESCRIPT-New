@@ -31,4 +31,20 @@ console.log(orderChai("small"));
 console.log(orderChai("medium"));
 console.log(orderChai("large"));
 console.log(orderChai(1));
+function MakeChai(order) {
+    switch (order.type) {
+        case "mashala":
+            return `Mashala chai with spice level ${order.spiceLevel}`;
+            break;
+        case "ginger":
+            return `Ginger chai with amount ${order.amount}`;
+            break;
+        case "elaichi":
+            return `Elaichi chai with aroma ${order.aroma}`;
+            break;
+    }
+}
+console.log(MakeChai({ type: "mashala", spiceLevel: 5 }));
+console.log(MakeChai({ type: "ginger", amount: 2 }));
+console.log(MakeChai({ type: "elaichi", aroma: 3 }));
 //# sourceMappingURL=typeNarrowing.js.map
