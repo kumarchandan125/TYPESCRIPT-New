@@ -55,16 +55,25 @@ Goal: To master TypeScript step by step and build real-world applications.
 
 ---
 
-## 📂 Folder Structure
-
-```
-typescript-learning/
+📂 Project Structure
+Typescript/
 │
-├── basics/
-├── intermediate/
-├── advanced/
-├── projects/
-└── notes/
+├── dist/                # Compiled JavaScript files
+├── node_modules/        # Dependencies
+├── src/                 # Source Code (Main Learning Folder)
+│   ├── index.ts
+│   ├── typesInTs.ts
+│   ├── moreTypes.ts
+│   ├── objectTS.ts
+│   ├── interface.ts
+│   ├── unionAndany.ts
+│   ├── tryAndCatch.ts
+│   ├── typeNarrowing.ts
+│   └── FunctionTS.ts
+│
+├── package.json
+├── package-lock.json
+└── tsconfig.json
 ```
 
 ---
